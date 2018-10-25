@@ -13,7 +13,7 @@ pipeline{
             }
         }
          //Building the web-service
-        stage('Build web-app'){
+        stage('Build web-service'){
             steps{
                 sh 'mvn -f /home/robot/.jenkins/workspace/test-jenkins-pipeline/hotel-restfull clean install'
             }
