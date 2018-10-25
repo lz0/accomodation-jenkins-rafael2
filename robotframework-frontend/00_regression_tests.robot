@@ -8,7 +8,7 @@ Test Teardown                                  Teardown
 *** Keywords ***
 Setup
     Set Environment Variable                   webdriver.chrome.driver                                     /usr/local/bin/chromedriver    
-    Open Browser                               http://localhost:8080/hotel/faces/login/login.xhtml         browser=chrome  
+    Open Browser                               http://localhost:8080/hotel/faces/login/login.xhtml         browser=headlesschrome  
     Maximize Browser Window  
     Set Selenium Speed                         .2
     Set Selenium Timeout                       30
